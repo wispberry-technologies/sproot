@@ -1,5 +1,7 @@
 package main
 
+import "github.com/charmbracelet/huh"
+
 // ---------------
 // Project
 // ---------------
@@ -76,4 +78,12 @@ func (f *feature) Order() *int {
 }
 func (f *feature) Setup() error {
 	return f.setup()
+}
+
+// Project setup/options form
+func ProjectSetupForm(project Project) *huh.Group {
+	return huh.NewGroup(
+		huh.NewInput().
+		
+	)
 }

@@ -6,11 +6,11 @@ import "fmt"
 var Skip Project = nil
 
 // Go-Chai
-var GoChai Project = &project{
-	name: "Go-Chai",
-	slug: "go-chai",
+var GoChi Project = &project{
+	name: "Go-Chi",
+	slug: "go-chi",
 	setup: func(args ...string) error {
-		fmt.Println("Setting up Go-Chai project...")
+		fmt.Println("Setting up Go-Chi project...")
 		// Add setup logic here
 		return nil
 	},
